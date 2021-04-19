@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Getting Started</title>
+    <link href="./css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+	<script src="./js/bootstrap.min.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="container" style="z-index: 10;">
+			
+    </div>
+    <div class="float-sm-start w-25 " id="log_in_user" style="width: 40%; position: absolute;	bottom: 5%; left: 5%; 
+    background-color: rgba(232, 253, 255,0.7); padding: 2%; border-radius: 25px;">
+        <form>
+            <p  class="text-center">User Sign In Form</p >
+            <div class="sm-3 ">
+                <label for="station" class="form-label">Station</label>
+                <select class="form-select rm-select form-select-sm" aria-label=".form-select-sm example">
+                    <option value="1">One Two Three</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+            </div>
+            <div class="sm-3">
+                <label for="user_id" class="form-label">User ID</label>
+                <input type="text" class="form-control" id="user_id" aria-describedby="user_id">
+            </div>
+            <div class="sm-3">
+                <label for="user_password" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <button type="submit" class="btn btn-primary">Enter</button>
+        </form>
+    </div>
+    <div class="float-sm-start w-25" id="log_in_user" style="width: 40%; position: absolute;	top: 5%; right: 5%; 
+    background-color: rgba(232, 253, 255,0.7); padding: 2%; border-radius: 25px;">
+        <form>
+            <p  class="text-center">Admin Sign In Form</p >
+            <div class="sm-3">
+                <label for="user_id" class="form-label">User ID</label>
+                <input type="text" class="form-control" id="user_id" aria-describedby="user_id">
+            </div>
+            <div class="mb-3">
+                <label for="user_password" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <button type="submit" class="btn btn-primary">Enter</button>
+        </form>
+    </div>
+   <script src="main.js"></script>
+  </body>
+</html>
